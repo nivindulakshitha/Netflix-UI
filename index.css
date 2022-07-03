@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'netflix-sans';
+    src: url('Media/Fonts/NetflixSansRegular.ttf') format('truetype');
+}
+
+html {
+    height: -webkit-fill-available;
+    font-family: 'netflix-sans', Helvetica, sans-serif;
+}
+
+body {
+    height: -webkit-fill-available;
+    padding: 0px;
+    margin: 0px;
+    background-color: #000000;
+    color: #FFFFFF;
+    overflow-y: scroll;
+}
+
+:root {
+    --netflix-red: #E50914;
+    --hr-color: #222222;
+}
+
+.bg-box {
+    display: block;
+    position: initial;
+    width: 100%;
+    height: 100%;
+}
+
+.gradient-fill {
+    background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+}
+
+.font-responsive {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.left-aligned {
+    float: left;
+}
+
+.right-aligned {
+    float: right;
+}
+
+.button {
+    background-color: var(--netflix-red);
+    padding: 7px 17px;
+    font-weight: 400;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.headding-1 {
+    font-size: 3.125rem;
+    font-weight: bold;
+    line-height: 1.0;
+}
+
+.headding-2 {
+    font-size: 1.625rem;
+}
+
+.headding-3 {
+    font-size: 1.2rem;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.light-text {
+    font-weight: lighter;
+}
+
+#welcome-cover {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100% !important;
+    height: 684.594px; /* This value might have come from a calculation depends on screen height */
+    background-image: url("Media/Images/cover-image.jpg"), linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+    background-size: cover;
+    border-bottom: 8px solid var(--hr-color);
+    background-position: center;
+}
+
+#welcome-cover #top-bar {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: -webkit-fill-available;
+    position: absolute;
+    padding: 28px 56px;
+}
+
+#welcome-cover #top-bar div img#logo {
+    width: 134px;
+    height: 38px;
+    z-index: 100;
+}
+
+#welcome-cover #intro-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    padding: 145px 199.5px;
+    margin-top: 80px;
+}
+
+#intro-box p[name='introduction'] span {
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#intro-box p[name='introduction'] span:nth-child(2) {
+    margin: 16px 0px;
+    height: 33px;
+    letter-spacing: 0px;
+}
+
+#intro-box p[name='introduction'] span:nth-child(3) {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    letter-spacing: 0px;
+}
+
+.form#sign-in-form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form#sign-in-form input[type=email]{
+    outline: none;
+    height: 35px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    border: 1px solid rgb(140, 140, 140);
+    border-radius: 2px;
+    min-width: 450px;
+}
+
+.form#sign-in-form span {
+    padding: 12px 50px 12px 26px;
+    background-image: url('Media/SVGs/go-ahead.svg');
+    background-repeat: no-repeat;
+    background-size: auto 33%;
+    background-position: right center;
+    background-position-x: calc(100% - 20px);
+}
+
+#going-through {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--hr-color);
+    align-items: baseline;
+    gap: 8px;
+}
+
+#going-through .container-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-pack: justify;
+    gap: 20px;
+    background-color: #000000;
+    width: -webkit-fill-available;
+    height: fit-content;
+    padding: 70px 125px;
+}
+
+#going-through .container-box .text-area {
+    width: 52%;
+}
+
+#going-through .container-box .text-area span.headding-2 {
+    display: block;
+    margin-top: 28px;
+}
+
+.container-box[name='enjoy-on-your-tv'] .media-area {
+    width: 48%;
+    height: 325px;
+}
+
+.container-box[name='enjoy-on-your-tv'] .media-area #tv-container {
+    background-image: url('Media/Images/tv-cast.gif');
+    width: 100%;
+    height: 100%;
+    background-position: 70px 20px;
+    background-repeat: no-repeat;
+    background-size: 375px 205px;
+}
+
+.container-box[name='enjoy-on-your-tv'] .media-area #tv-container img {
+    width: 520px;
+    height: 380px;
+    pointer-events: none;
+    transform: translateY(-60px);
+}
+
+.container-box[name='download-your-shows'] .media-area img {
+    width: 75%;
+    pointer-events: none;
+}
+
+.container-box[name='download-your-shows'] .media-area {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.container-box[name='download-your-shows'] .media-area div[name='download-action'] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+    padding: .5em .75em;
+    background-color: #000000;
+    height: fit-content;
+    border: 2px solid var(--hr-color);
+    border-radius: .75em;
+    transform: translateY(-120%);
+}
+
+.container-box[name='download-your-shows'] .media-area div[name='download-action'] img:nth-child(1) {
+    height: 4.5em;
+    width: auto;
+}
+
+.container-box[name='download-your-shows'] .media-area div[name='download-action'] img:nth-child(3) {
+    width: 3em;
+    height: 3em;
+}
+
+.container-box[name='download-your-shows'] .media-area div[name='download-action'] p span:nth-child(2) {
+    font-size: 14px;
+    color: #0071eb;
+}
+
+.container-box[name='create-profiles-for-kids'] .media-area img {
+   width: 85%;
+   pointer-events: none;
+}
+
+#going-through .container-box[name='frequently-asked-questions'] {
+    justify-content: center;
+    flex-direction: column;
+}
+
+#going-through .container-box[name='frequently-asked-questions'] div#questions {
+    height: fit-content;
+    width: max-content;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.container-box[name='frequently-asked-questions'] div#questions .question-box::before {
+    content: '';
+    position: absolute;
+    background-image: url('Media/SVGs/plus-close.svg');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    width:  25px;
+    height: 25px;
+    margin-top: 5px;
+    left: 1025px;
+    transform: rotate(45deg);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
+.container-box[name='frequently-asked-questions'] div#questions .question-box {
+    width: 750px;
+    background-color: #303030;
+    padding: .8em 1.2em .8em 1.2em;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.container-box[name='contact-us'] {
+    padding: 70px 250px !important;
+}
+
+.container-box[name='contact-us'] * {
+    font-weight: lighter;
+}
+
+.container-box[name='contact-us'] {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+
+.container-box[name='contact-us'] .atext {
+    opacity: 0.5;
+}
+
+.container-box[name='contact-us'] .atext:first-child:hover {
+    text-decoration: underline;
+}
+
+.container-box[name='contact-us'] .atext:last-child {
+    margin-top: 20px;
+    font-size: small;
+}
+
+.container-box[name='contact-us'] div#option-links {
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    opacity: 0.5;
+}
+
+.container-box[name='contact-us'] div#option-links .option {
+    width: calc((100% - 60px) / 4);
+    height: 15px;
+    font-size: small;
+    cursor: pointer;
+}
+
+.container-box[name='contact-us'] div#option-links .option:hover {
+    text-decoration: underline;
+}
+
+div#credit-box {
+    background-color: #000000;
+    font-size: 12px;
+    font-style: italic;
+}
+
+div#credit-box a {
+    text-decoration: none;
+    color: var(--netflix-red);
+}
