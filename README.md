@@ -4,15 +4,19 @@
 > ### Languages and Versions:
 > | Language  | Version |
 > | --------- |:-------:|
+> | React     | 18.2.0  |
+> | JavaScript| ES6     |
 > | HTML      | 5       |
 > | CSS       | 3       |
 ---
 > ### Demo
 > <img src="https://drive.google.com/uc?export=download&id=1GeYYtYNYjPK-V-JlBJ5SqoGCXoerp3rr" width="200">
 ---
-> ### Requirements: None
+> ### Requirements: Node JS v14.15.0
+                    Node Package Manager
+                    Bootstrap v5
 ---
-> ###  Lisence: MIT
+> ###  Lisence: Apache
 ---
 > ### Author: [coding-desk20](https://github.com/coding-desk20)
 ---
