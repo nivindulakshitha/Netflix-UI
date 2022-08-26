@@ -8,7 +8,7 @@
 > | CSS       | 3       |
 ---
 > ### Demo
-> <img src="https://drive.google.com/uc?export=download&id=1GeYYtYNYjPK-V-JlBJ5SqoGCXoerp3rr" width="200">
+> <img src="https://github.com/coding-desk20/coding-desk20/blob/main/images/netflix-ui.png?raw=true" width="200">
 ---
 > ### Requirements: None
 ---
