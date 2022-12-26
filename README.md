@@ -8,14 +8,14 @@
 > | CSS       | 3       |
 ---
 > ### Demo
-> <img src="https://github.com/coding-desk20/coding-desk20/blob/main/images/netflix-ui.png?raw=true" width="200">
+> <img src="https://github.comcodingdesk-dev/codingdesk-dev/blob/main/images/netflix-ui.png?raw=true" width="200">
 ---
 > ### Requirements: None
 ---
 > ###  Lisence: MIT
 ---
-> ### Author: [coding-desk20](https://github.com/coding-desk20)
+> ### Author: [codingdesk-dev](https://github.com/codingdesk-dev)
 ---
 > [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/codingdesk20)
 ---
-> [![](https://visitcount.itsvg.in/api?id=project-4&label=Project%20Visits&icon=3&pretty=true)](https://github.com/coding-desk20/netflix-ui)
+> [![](https://visitcount.itsvg.in/api?id=repo005&label=Project%20Visits&icon=3&pretty=true)](https://github.com/codingdesk-dev/netflix-ui)
